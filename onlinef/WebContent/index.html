@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>BANK</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+			.con
+			{
+				text-align:center;
+				margin-top:420px;
+			}
+			.butn
+			{
+				border:1px solid #94641b;
+				background:none;
+				padding:10px 20px;
+				font-size:20px;
+				font-family:"montserrat";
+				cursor:pointor;
+				margin:10px;
+				transition:0.8s;
+				position:relative;
+				overflow:hidden;
+			}
+			.butn1
+			{
+				color:#fff;
+			}
+			.butn1:hover
+			{
+				color:#fff;
+			}
+			.butn::before
+			{
+				content:"";
+				position:absolute;
+				left:0;
+				width:100%;
+				height:0%;
+				background:#94641b;
+				z-index:-1;
+				transition:0.8s;
+			}
+			.butn1::before
+			{
+				top:0;
+				border-radius:0 0 50% 50%;
+			}
+			.butn1:hover::before
+			{
+				height:180%;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+				<ul>
+					<li><a href="regis.html">NEW ACCOUNT</a></li>
+					<li><a href="login.html">LOGIN</a></li>
+					
+				</ul>
+		</nav>
+		<div class="con">
+			<div class="Login">
+				<h1>ONLINE BANKING</h1>
+			</div>
+			<MARQUEE bgcolor=red>Low Interset Loans!</MARQUEE>
+			<marquee bgcolor=yellow>Easy Loan!!,Low interest loans avilable!!</marquee>
+		</div>
+	</body>
+</html>
